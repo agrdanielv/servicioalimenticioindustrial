@@ -2,6 +2,7 @@ import React from "react";
 
 import "./Header.css";
 import { Link } from "react-router-dom";
+import logo from "../../assets/logo.png";
 
 const Header = () => {
   return (
@@ -9,7 +10,7 @@ const Header = () => {
       <div className="container text-center header">
         <div className="row header">
           <div className="col-sm-12 col-md-1">
-          <img src="../../assets/logo.png" alt="Girl in a jacket" width="500" height="600"></img>
+          <img src={logo} alt="Girl in a jacket" width="500" height="600"></img>
           </div>
           <div className="col-sm-12 col-md-7"></div>
           <div className="col-sm-12 col-md-3 header-contact-data">
