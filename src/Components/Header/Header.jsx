@@ -13,10 +13,10 @@ const Header = () => {
             <img src={logo} alt="logo" class="header-logo"></img>
           </div>
           <div className="col-sm-12 col-md-7"></div>
-          <div className="col-sm-12 col-md-3 header-contact-data">
+          <div className="col-sm-12 col-md-4 header-contact-data">
             <div>
               <div className="row">
-                <div className="col">
+                <div className="col whatsapp-col">
                   <i className="bi bi-whatsapp whatsapp-header"></i>
                   <p className="header-info">
                     (+52) 3334888873 & (+52) 3339448999
@@ -26,7 +26,7 @@ const Header = () => {
               <div className="row">
                 <div className="col">
                   <h5 className="header-slogan">
-                    "Calidad, Valor y Servicio de Confianza"
+                    "Calidad y confianza para impulsar tu producción"
                   </h5>
                 </div>
               </div>

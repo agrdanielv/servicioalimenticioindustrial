@@ -18,6 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<MainPage />}/>
           <Route path="/catalog/:category" element={<ProductPage />}/>
+          <Route path="/subcatalog/:subcategory" element={<ProductPage />}/>
           <Route path="/details/:productId" element={<DetailsPage />}/>
           <Route path="/contact" element={<ContactUsPage />}/>
         </Routes>

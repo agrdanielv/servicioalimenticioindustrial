@@ -18,7 +18,11 @@ const ProductPage = () => {
           className="product-page-header-image max-width"
           alt="Imagen no Disponible"
         />
-        <ProductDisplay category={params.category} />
+        {params.category === undefined ? (
+          <ProductDisplay category={params.subcategory} subcategory={true} />
+        ) : (
+          <ProductDisplay category={params.category} subcategory={false} />
+        )}
         <Footer />
       </div>
     </div>

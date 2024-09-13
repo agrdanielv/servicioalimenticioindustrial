@@ -32,7 +32,7 @@ const DropDownMenu = ({ menuHeaderName, menuOptions }) => {
         {menuOptions.map((menuOption) => (
           <li
             key={menuOption.optionRef}
-            onClick={() => navigate(`/details/${menuOption.optionRef}`)}
+            onClick={() => navigate(`/subcatalog/${menuOption.optionRef}`)}
           >
             <div className="dropdown-menu-options">{menuOption.optionName}</div>
           </li>

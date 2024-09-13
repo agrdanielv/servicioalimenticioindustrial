@@ -9,18 +9,19 @@
 
 .header-logo{
     position: absolute;
-    top: -1rem;
-    height: 9rem;
+    top: -0rem;
+    height: 8rem;
     left: -0.1rem;
 }
 
 .header-info{
     color: #D6CCC2;
     margin-bottom: 0rem;
-    font-size: 0.8rem;  
-    float: right;
+    font-size: 1.1rem;  
     color: #2ab7ca;
     padding-top: 0.2rem;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
 }
 
 .row-header-title{
@@ -35,13 +36,20 @@
 }
 
 .header-slogan{
+    padding-left: 4rem;
     padding-top: 0.5rem;
-    color: #ffc107;
+    color: #D6CCC2;
 }
 
 .whatsapp-header{
     color: greenyellow;
-    padding-left: 7rem;
+    font-size: 1.2rem;
+    padding-top: 0.1rem;
+    margin-left: auto;
+}
+
+.whatsapp-col{
+    display: flex;
 }
 
 @media only screen and (max-width: 770px){

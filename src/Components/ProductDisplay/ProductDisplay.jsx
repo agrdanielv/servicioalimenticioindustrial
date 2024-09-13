@@ -5,7 +5,7 @@ import productData from "../../assets/productData.json";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const ProductDisplay = ({ category }) => {
+const ProductDisplay = ({ category, subcategory }) => {
   const [productList, setProductList] = useState([[]]);
   const [imageMap, setImageMap] = useState({});
 
@@ -32,13 +32,25 @@ const ProductDisplay = ({ category }) => {
     let productList = [];
     let productRow = [];
     productData.products.map((product) => {
-      if (product.category.toLowerCase() === category.toLowerCase()) {
-        if (productRow.length == 2) {
-          productRow.push(product);
-          productList.push(productRow);
-          productRow = [];
-        } else {
-          productRow.push(product);
+      if (subcategory) {
+        if (product.subcategory === category) {
+          if (productRow.length == 2) {
+            productRow.push(product);
+            productList.push(productRow);
+            productRow = [];
+          } else {
+            productRow.push(product);
+          }
+        }
+      } else {
+        if (product.category.toLowerCase() === category.toLowerCase()) {
+          if (productRow.length == 2) {
+            productRow.push(product);
+            productList.push(productRow);
+            productRow = [];
+          } else {
+            productRow.push(product);
+          }
         }
       }
       return product;
