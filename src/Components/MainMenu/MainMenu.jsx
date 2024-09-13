@@ -15,35 +15,29 @@ const MainMenu = () => {
 
   useEffect(() => {
     let data = [];
-    productData.products.map((product) => {
-      if (product.category.toLowerCase() === "proceso") {
-        data.push({
-          optionName: product.name,
-          optionRef: product.id,
-        });
-      }
+    productData.productsSubCategory.proceso.map((subcategory) => {
+      data.push({
+        optionName: subcategory,
+        optionRef: subcategory.replace(/\s/g, "").toLowerCase(),
+      });
     });
     setOptionsEquipoProceso(data);
 
     data = [];
-    productData.products.map((product) => {
-      if (product.category.toLowerCase() === "corte") {
-        data.push({
-          optionName: product.name,
-          optionRef: product.id,
-        });
-      }
+    productData.productsSubCategory.corte.map((subcategory) => {
+      data.push({
+        optionName: subcategory,
+        optionRef: subcategory.replace(/\s/g, "").toLowerCase(),
+      });
     });
     setOptionsEquipoCorte(data);
 
     data = [];
-    productData.products.map((product) => {
-      if (product.category.toLowerCase() === "empacado") {
-        data.push({
-          optionName: product.name,
-          optionRef: product.id,
-        });
-      }
+    productData.productsSubCategory.empacado.map((subcategory) => {
+      data.push({
+        optionName: subcategory,
+        optionRef: subcategory.replace(/\s/g, "").toLowerCase(),
+      });
     });
     setOptionsEquipoEmpacado(data);
   }, []);
@@ -51,7 +45,7 @@ const MainMenu = () => {
   return (
     <div className="container text-center main-menu-container">
       <div className="row justify-content-center max-width main-menu-row">
-        <div className="col-sm-12 col-md-1 menu-col">
+        <div className="col-sm-12 col-md-2 menu-col">
           <button
             className="btn dropdown-header"
             type="button"
@@ -60,19 +54,19 @@ const MainMenu = () => {
             Inicio
           </button>
         </div>
-        <div className="col-sm-12 col-md-3 menu-col">
+        <div className="col-sm-12 col-md-2 menu-col">
           <DropDownMenu
             menuHeaderName="proceso"
             menuOptions={optionsEquipoProceso}
           />
         </div>
-        <div className="col-sm-12 col-md-3 menu-col">
+        <div className="col-sm-12 col-md-2 menu-col">
           <DropDownMenu
             menuHeaderName="corte"
             menuOptions={optionsEquipoCorte}
           />
         </div>
-        <div className="col-sm-12 col-md-3 menu-col">
+        <div className="col-sm-12 col-md-2 menu-col">
           <DropDownMenu
             menuHeaderName="empacado"
             menuOptions={optionsEquipoEmpacado}

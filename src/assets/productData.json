@@ -6,6 +6,7 @@
             "img" : "p5",
             "imgs-description" : ["p1","p5","p3"],
             "category" : "Proceso",
+            "subcategory": "selladorasdevacío",
             "description" : "Breve descripción de la máquina ddd",
             "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
             "details" : {
@@ -26,6 +27,7 @@
             "img" : "p2",
             "imgs-description" : ["p2","p5"],
             "category" : "Corte",
+            "subcategory": "selladorasdevacío",
             "description" : "Breve descripción de la máquina",
             "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
             "details" : {
@@ -43,6 +45,7 @@
             "img" : "p3",
             "imgs-description" : ["p3","p5"],
             "category" : "Proceso",
+            "subcategory": "selladorasdevacío",
             "description" : "Breve descripción de la máquina",
             "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
             "details" : {
@@ -60,6 +63,7 @@
             "img" : "p4",
             "imgs-description" : ["p4","p5"],
             "category" : "Corte",
+            "subcategory": "selladorasdevacío",
             "description" : "Breve descripción de la máquina",
             "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
             "details" : {
@@ -77,6 +81,7 @@
             "img" : "p5",
             "imgs-description" : ["p5","p3"],
             "category" : "Empacado",
+            "subcategory": "tumblers",
             "description" : "Breve descripción de la máquina",
             "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
             "details" : {
@@ -94,6 +99,7 @@
             "img" : "p6",
             "imgs-description" : ["p6","p5"],
             "category" : "Empacado",
+            "subcategory": "tumblers",
             "description" : "Breve descripción de la máquina",
             "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
             "details" : {
@@ -111,6 +117,7 @@
             "img" : "p7",
             "imgs-description" : ["p7","p5"],
             "category" : "corte",
+            "subcategory": "hornosdeshidratadores",
             "description" : "Breve descripción de la máquina",
             "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
             "details" : {
@@ -128,6 +135,7 @@
             "img" : "p8",
             "imgs-description" : ["p8","p5"],
             "category" : "corte",
+            "subcategory": "hornosdeshidratadores",
             "description" : "Breve descripción de la máquina",
             "summary": "Descripciíon detallada de la máquina, incluye mucho texto y más cosas que decir para vender",
             "details" : {
@@ -143,6 +151,27 @@
     "productsDisplayHeader" : {
         "corte": "Equipo de Corte",
         "empacado": "Equipo de Empacado",
-        "proceso": "Equipo de Proceso"
+        "proceso": "Equipo de Proceso",
+        "sierras": "Sierras",
+        "rebanadoras": "Rebanadoras",
+        "cutters": "Cutters",
+        "descueradoras": "Descueradoras",
+        "cortadoras": "Cortadoras", 
+        "selladorasdevacío": "Selladoras de Vacío", 
+        "termoencogederas": "Termoencogederas",
+        "embolsadoras": "Embolsadoras", 
+        "dosificadoras": "Dosificadoras",
+        "inyectadoras": "Inyectadroas",
+        "tenderizadoras": "Tenderizadoras",
+        "tumblers": "Tumblers",
+        "molinos": "Molinos", 
+        "embutidoras": "Embutidoras",
+        "revolvedoras": "Revolvedoras",
+        "hornosdeshidratadores": "Hornos Deshidratadores"
+    },
+    "productsSubCategory" : {
+        "corte" : ["Sierras","Rebanadoras","Cutters","Descueradoras","Cortadoras"],
+        "empacado" : ["Selladoras de Vacío", "Termoencogederas", "Embolsadoras", "Dosificadoras"],
+        "proceso" : ["Inyectadroas","Tenderizadoras","Tumblers","Molinos","Hornos Deshidratadores", "Embutidoras","Revolvedoras"]
     }
 } 
