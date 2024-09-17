@@ -9,7 +9,7 @@ const Header = () => {
       <div className="container text-center header">
         <div className="row header">
           <div className="col-sm-12 col-md-1">
-            <img src={logo} alt="logo" class="header-logo"></img>
+            <img src={logo} alt="logo" className="header-logo"></img>
           </div>
           <div className="col-sm-12 col-md-7"></div>
           <div className="col-sm-12 col-md-4 header-contact-data">

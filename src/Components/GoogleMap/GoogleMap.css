@@ -1,5 +1,13 @@
 .map-container{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 5rem;
     background-color: #262626;
+}
+
+
+@media only screen and (max-width: 770px){
+    .map-container{
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
 }

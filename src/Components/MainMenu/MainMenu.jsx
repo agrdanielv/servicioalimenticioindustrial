@@ -10,6 +10,7 @@ const MainMenu = () => {
   const [optionsEquipoProceso, setOptionsEquipoProceso] = useState([]);
   const [optionsEquipoCorte, setOptionsEquipoCorte] = useState([]);
   const [optionsEquipoEmpacado, setOptionsEquipoEmpacado] = useState([]);
+  const [visibleClass, setVisibleClass] = useState("");
 
   const navigate = useNavigate();
 
@@ -42,9 +43,22 @@ const MainMenu = () => {
     setOptionsEquipoEmpacado(data);
   }, []);
 
+  const toggleMenu = () => {
+    visibleClass === ""
+      ? setVisibleClass("visible-class")
+      : setVisibleClass("");
+  };
+
   return (
     <div className="container text-center main-menu-container">
-      <div className="row justify-content-center max-width main-menu-row">
+      <div className="row justify-content-end menu-mobile-row">
+        <div className="col-4">
+          <i className="bi bi-list menu-icon" onClick={toggleMenu}></i>
+        </div>
+      </div>
+      <div
+        className={`row justify-content-center max-width main-menu-row ${visibleClass}`}
+      >
         <div className="col-sm-12 col-md-2 menu-col">
           <button
             className="btn dropdown-header"

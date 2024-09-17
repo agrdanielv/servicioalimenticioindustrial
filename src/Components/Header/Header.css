@@ -78,4 +78,9 @@
     .whatsapp-bubble{
         bottom: 3rem;
     }
+
+    .header-logo{
+        left: 15%;
+        width: 70%;
+    }
 }
