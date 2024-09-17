@@ -161,7 +161,7 @@
         "termoencogederas": "Termoencogederas",
         "embolsadoras": "Embolsadoras", 
         "dosificadoras": "Dosificadoras",
-        "inyectadoras": "Inyectadroas",
+        "inyectadoras": "Inyectadoras",
         "tenderizadoras": "Tenderizadoras",
         "tumblers": "Tumblers",
         "molinos": "Molinos", 
@@ -172,6 +172,6 @@
     "productsSubCategory" : {
         "corte" : ["Sierras","Rebanadoras","Cutters","Descueradoras","Cortadoras"],
         "empacado" : ["Selladoras de Vacío", "Termoencogederas", "Embolsadoras", "Dosificadoras"],
-        "proceso" : ["Inyectadroas","Tenderizadoras","Tumblers","Molinos","Hornos Deshidratadores", "Embutidoras","Revolvedoras"]
+        "proceso" : ["Inyectadoras","Tenderizadoras","Tumblers","Molinos","Hornos Deshidratadores", "Embutidoras","Revolvedoras"]
     }
 } 
