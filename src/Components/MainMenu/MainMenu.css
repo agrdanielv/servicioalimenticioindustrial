@@ -58,7 +58,7 @@
     height: 100% !important;
 }
 
-@media only screen and (max-height: 625px){
+@media only screen and (max-width: 770px){
     .menu-mobile-row{
         visibility: visible;
     }
