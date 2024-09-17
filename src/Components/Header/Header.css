@@ -74,4 +74,8 @@
     .header-contact-data{
         visibility: hidden;
     }
+
+    .whatsapp-bubble{
+        bottom: 1rem;
+    }
 }
