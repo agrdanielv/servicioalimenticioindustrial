@@ -27,7 +27,7 @@
     padding: 1rem;
     cursor: pointer;
     color: white;
-    z-index: 999;
+    z-index: 5;
     font-size: 3rem;
     transition: background-color 100ms ease-in-out;
 }

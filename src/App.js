@@ -7,12 +7,18 @@ import MainPage from "./Pages/MainPage";
 import ProductPage from "./Pages/ProductPage/ProductPage";
 import DetailsPage from "./Pages/DetailsPage/DetailsPage";
 import ContactUsPage from "./Pages/ContactUsPage/ContactUsPage";
+import whatsapp from "./assets/whatsapp.png";
 
 function App() {
   return (
     <BrowserRouter>
         <div className="header">
           <Header />
+        </div>
+        <div className="whatsapp-bubble">
+          <a href="http://wa.me/+523334888873" target="_blank">
+            <img src={whatsapp} alt="whatsapp" className="whatsapp-bubble-btn"></img>
+          </a>
         </div>
         <MainMenu />
         <Routes>

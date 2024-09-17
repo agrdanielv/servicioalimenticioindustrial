@@ -52,6 +52,24 @@
     display: flex;
 }
 
+.whatsapp-bubble{
+    z-index: 6;
+    position: fixed;
+    right: 0.6rem;
+    bottom: 4rem;
+}
+
+.whatsapp-bubble-btn{
+    max-width: 4rem;
+    transition: max-width 100ms ease-in-out;
+    border-radius: 50%;
+    box-shadow: 0.1rem 0.3rem 0.7rem 0.1rem black;
+}
+
+.whatsapp-bubble-btn:hover{
+    max-width: 4.2rem
+}
+
 @media only screen and (max-width: 770px){
     .header-contact-data{
         visibility: hidden;
