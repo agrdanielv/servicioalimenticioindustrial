@@ -16,7 +16,8 @@ const Footer = () => {
             <p className="footer-info">+52 3334888873</p>
             <p className="footer-info">+52 3339448999</p>
             <p className="footer-info">
-              Carlos fuero 615 col. Lomas del paradero c.p. 44840
+              Carlos Fuero 615 col. Lomas del Paradero
+              Guadalajara Jal. c.p. 44840
             </p>
           </div>
         </div>

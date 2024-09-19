@@ -68,6 +68,7 @@ const MainImageSlider = () => {
           <button
             onClick={() => setImageIndex(index)}
             className="main-image-slider-bottom-btns"
+            key={index}
           >
             {index === imageIndex ? (
               <i className="bi bi-wrench-adjustable-circle-fill"></i>

@@ -21,6 +21,19 @@
     border-radius: 0.5rem;
 }
 
+.menu-mobile-row{
+    visibility: hidden;
+}
+
+.menu-icon{
+    color: #D6CCC2;
+    font-size: 3rem;
+}
+
+.menu-icon:hover{
+    background-color: rgb(0,0,0,0.2);
+}
+
 .dropdown-header{
     color: #D6CCC2 !important;
     font-size: 1.2rem !important;
@@ -40,8 +53,18 @@
     margin-left: 0rem !important;
 }
 
-/* @media only screen and (max-height: 625px){
-    .menu-col{
-        padding-left: 1rem !important;
+.visible-class{
+    visibility: visible !important;
+    height: 100% !important;
+}
+
+@media only screen and (max-width: 770px){
+    .menu-mobile-row{
+        visibility: visible;
     }
-} */
+
+    .main-menu-row{
+        visibility: hidden;
+        height: 0rem;
+    }
+}

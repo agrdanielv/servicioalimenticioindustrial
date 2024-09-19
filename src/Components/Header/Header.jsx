@@ -1,7 +1,6 @@
 import React from "react";
 
 import "./Header.css";
-import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
       <div className="container text-center header">
         <div className="row header">
           <div className="col-sm-12 col-md-1">
-            <img src={logo} alt="logo" class="header-logo"></img>
+            <img src={logo} alt="logo" className="header-logo"></img>
           </div>
           <div className="col-sm-12 col-md-7"></div>
           <div className="col-sm-12 col-md-4 header-contact-data">
@@ -19,7 +18,13 @@ const Header = () => {
                 <div className="col whatsapp-col">
                   <i className="bi bi-whatsapp whatsapp-header"></i>
                   <p className="header-info">
-                    (+52) 3334888873 & (+52) 3339448999
+                    <a href="http://wa.me/+523334888873" target="_blank">
+                      (+52) 3334888873
+                    </a>{" "}
+                    &
+                    <a href="http://wa.me/+523339448999" target="_blank">
+                      (+52) 3339448999
+                    </a>
                   </p>
                 </div>
               </div>
@@ -31,9 +36,6 @@ const Header = () => {
                 </div>
               </div>
             </div>
-            {/* <p className="header-info">
-              Carlos fuero 615 col. Lomas del paradero c.p. 44840
-            </p> */}
           </div>
         </div>
       </div>
