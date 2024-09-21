@@ -12,8 +12,11 @@ const ContactTile = () => {
         </div>
         <div className="col-sm-12 col-md-4">
           <div>
-            <h5>Equipo de la más alta calidad</h5>
-            <h3>Nos esforzamos día a día en satsifacer a nuestros clientes</h3>
+            {/* <h5>Equipo de la más alta calidad</h5> */}
+            <h3>
+              Maquinaria especializada para la industria alimentaria, con
+              garantía y soporte técnico.
+            </h3>
           </div>
         </div>
         <div className="col-sm-12 col-md-3 contact-title-btn-container">

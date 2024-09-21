@@ -1,5 +1,5 @@
 import "./AboutSection.css";
-import image from "../../assets/imgs-slider/maxresdefault.jpg";
+import logo from "../../assets/logo.png";
 
 const AboutSection = () => {
   return (
@@ -14,8 +14,8 @@ const AboutSection = () => {
         <div className="row justify-content-center about-us-row no-side-margin">
           <div className="col-sm-12 col-md-4">
             <img
-              key={image}
-              src={image}
+              key={logo}
+              src={logo}
               className="about-us-image"
               alt="Imagen no Disponible"
             />

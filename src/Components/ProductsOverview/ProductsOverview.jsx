@@ -1,6 +1,8 @@
 import "./ProductsOverview.css";
 
 import image from "../../assets/imgs-slider/maxresdefault.jpg";
+import proceso from "../../assets/imgs-slider/inyectadoras.jpg";
+import empacado from "../../assets/imgs-slider/IndustrialMachine.jpg";
 import productData from "../../assets/productData.json";
 import { useNavigate } from "react-router-dom";
 
@@ -21,8 +23,8 @@ const ProductsOverview = () => {
         >
           <div className="product-overview-img">
             <img
-              key={image}
-              src={image}
+              key={proceso}
+              src={proceso}
               className="about-us-image"
               alt="Imagen no Disponible"
             />
@@ -53,8 +55,8 @@ const ProductsOverview = () => {
         >
           <div className="product-overview-img">
             <img
-              key={image}
-              src={image}
+              key={empacado}
+              src={empacado}
               className="about-us-image"
               alt="Imagen no Disponible"
             />
