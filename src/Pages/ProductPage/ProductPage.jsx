@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 
 import "./ProductPage.css";
 
-import headerImage from "../../assets/imgs-slider/IndustrialMachine.jpg";
+import headerImage from "../../assets/mix.jpg";
 import ProductDisplay from "../../Components/ProductDisplay/ProductDisplay";
 import Footer from "../../Components/Footer/Footer";
 
