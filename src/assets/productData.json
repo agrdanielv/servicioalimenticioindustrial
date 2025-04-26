@@ -24,7 +24,7 @@
         {
             "id" :2,
             "name" : "Máquina 2",
-            "img" : "p2",
+            "img" : "BERKEL 1",
             "imgs-description" : ["p2","p5"],
             "category" : "Corte",
             "subcategory": "selladorasdevacío",
